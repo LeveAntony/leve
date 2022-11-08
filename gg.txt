@@ -1,0 +1,52 @@
+code with out parameters
+-
+ECHO '%X%'
+ECHO '%NAME%'
+ECHO '%STUDENT%'
+ECHO '%ID%'
+
+
+without parameter
+
+java-
+ 
+cd "C.\"
+javac leve.java
+java leve
+
+java with parameter 
+cd "c.\"
+javac leve.java
+java leve %NAME% %SURNAME%
+
+// Your First Program
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+
+TO TAKE INPUT
+Class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+    System.out.println("Enter username");
+
+    String userName = myObj.nextLine();  // Read user input
+    System.out.println("Username is: " + userName);  // Output user input
+  }
+}
+
+
+CLEAN COMPILE PACKAGE 
+ PYTHON 
+
+print("hello world,")
+
+
+
+print("Hello, World!")
+
+
+
